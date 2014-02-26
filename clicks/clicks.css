@@ -1,9 +1,11 @@
 h1.clicked {
     color: darksalmon;
 }
-.hide{
-    display: none}
+.rotated{
+    -webkit-transform: rotateY(360deg);
+}
 img.logo {
+    transition: 1s;
     position: absolute;
     left: 50%;
     top: 50%;
